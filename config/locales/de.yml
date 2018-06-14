@@ -1,0 +1,11 @@
+de:
+  spree:
+    retail_only: "Nur für den Einzelhandel"
+    not_retail_only: "Binnenlandse consumenten"
+  ## Retailer ##
+  applyforretailer: "Händler Zugang"
+  applyforretailer_info: "Ihr Konto wird aktiviert, sobald Ihre Daten bestätigt wurden."
+  confirm_retailer: "Ihr Konto als Händler wurde erfolgreich Überprüfung"
+  info_retailer: "Herzlich willkommen! Sie haben sich erfolgreich angemeldet. Innerhalb von 24 Arbeitsstunden , werden wir Ihr Konto aktivieren, wenn die zur Verfügung gestellten Daten zu validieren."
+  info_account_retail: "Kontoinformationen"
+  confirm_account_retail: "Kontobestätigung"

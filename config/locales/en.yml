@@ -1,0 +1,14 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  spree:
+    retail_only: "Only for retail"
+    not_retail_only: "Domestic consumers"
+  ## Retailer ##
+  applyforretailer: "Retailers access"
+  applyforretailer_info: "Your account will be activated once your details have been confirmed."
+  confirm_retailer: "Your account as a Retailer has been successfully verificated."
+  info_retailer: "Welcome! You have successfully signed up. Within 24 working hours, we will activate your account once the data provided is validated."
+  info_account_retail: "Account Information"
+  confirm_account_retail: "Account Confirmation"

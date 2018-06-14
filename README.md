@@ -10,7 +10,7 @@ Retail users will only see retail products and non-retail users will not see the
 Add solidus_retail_only to your Gemfile:
 
 ```ruby
-gem 'solidus_retail_only', github: 'https://www.github.com/2bedigital.com/solidus_retail_only', branch: 'master'
+gem 'solidus_retail_only', git: 'https://github.com/2bedigital/solidus_retail_only', branch: 'master'
 ```
 
 Bundle your dependencies and run the installation generator:

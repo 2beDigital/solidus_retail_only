@@ -1,5 +1,3 @@
+require "spree_core"
 require "solidus_retail_only/version"
-
-module SolidusRetailOnly
-  # Your code goes here...
-end
+require "solidus_retail_only/engine"

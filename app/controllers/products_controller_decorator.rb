@@ -5,10 +5,10 @@ Spree::ProductsController.class_eval do
   	return if try_spree_current_user.try(:has_spree_role?, "admin")
   	if can? :see_retail_only_products, Spree::Product
       # retail users can see retail_only products
-      @product = Spree::Product.active(current_currency).where(:retail_only => true)
+      @product = Spree::Product.available(current_currency).where(:retail_only => true)
   	else
       # all other users only see products that are NOT retail_only
-      @product = Spree::Product.active(current_currency).where(:retail_only => false)
+      @product = Spree::Product.available(current_currency).where(:retail_only => false)
   	end
     @product = @product.friendly.find(params[:id])
   end

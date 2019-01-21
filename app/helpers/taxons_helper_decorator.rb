@@ -9,6 +9,5 @@ Spree::TaxonsHelper.class_eval do
       products = products.where("#{Spree::Product.quoted_table_name}.retail_only != ?", true).references("#{Spree::Product.quoted_table_name}")
     end
     products.limit(max)
-    products
   end
 end

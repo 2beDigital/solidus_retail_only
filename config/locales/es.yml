@@ -6,6 +6,7 @@ es:
     retail_only: "Sólo para retail"
     not_retail_only: "Consumidores domésticos"
     retailer: "Sólo para retail"
+    applyforretailer: "Acceso profesionales"
   ## Retailer ##
   applyforretailer: "Acceso Distribuidores"
   applyforretailer_info: "Tu cuenta será activada definitivamente una vez validados tus datos."
